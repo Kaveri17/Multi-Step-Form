@@ -1,0 +1,15 @@
+// This file tells the Sequelize CLI where to find your TypeScript configuration, models, seeders, and migrations
+const path = require("path");
+
+module.exports = {
+    'config': path.resolve('config', 'config.js'),
+    'models-path': path.resolve('src', 'models'),
+    // 'typescript': true // This line makes sure Sequelize generates .ts files
+};
+
+/*package.json
+scrip:{
+    "sequelize": "ts-node -r tsconfig-paths/register ./node_modules/.bin/sequelize",
+    "sequelize-cli": "ts-node -r tsconfig-paths/register ./node_modules/.bin/sequelize-cli"
+}
+*/
