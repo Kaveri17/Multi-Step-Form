@@ -163,7 +163,7 @@ const Sidebar = () => {
                 >
                   <svg
                     viewBox="0 0 24 24"
-                    fill="none"
+                    fill="none"             
                     width="24"
                     height="24"
                     xmlns="http://www.w3.org/2000/svg"

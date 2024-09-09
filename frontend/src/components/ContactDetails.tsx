@@ -8,90 +8,69 @@ const ContactDetails = () => {
           Contact Information
         </h2>
         <p className="text-white font-medium text-base pb-5">
-          Enter your Contact Information:
+          Enter your contact information:
         </p>
         <form className="">
-          <div className="mb-5 flex w-full justify-between">
-            <div className="w-[49%]">
-              <label
-                htmlFor="fname"
-                className="block mb-2 text-sm font-medium text-white"
-              >
-                First Name
-              </label>
-              <input
-                type="text"
-                id="fname"
-                className="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
-                placeholder="Enter Your First Name"
-                required
-              />
-            </div>
-            <div className="w-[49%]">
-              <label
-                htmlFor="lname"
-                className="block mb-2 text-sm font-medium text-white"
-              >
-                Last Name
-              </label>
-              <input
-                type="text"
-                id="lname"
-                className="bg-gray-50 border border-gray-300  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
-                placeholder="Enter Your Last Name"
-                required
-              />
-            </div>
-          </div>
           <div className="mb-5">
             <label
-              htmlFor="dob"
+              htmlFor="email"
               className="block mb-2 text-sm font-medium text-white "
             >
-              Date Of Birth
+              Email
             </label>
             <input
-              type="date"
-              id="dob"
+              type="email"
+              id="email"
               className="bg-gray-50 border border-gray-300 text-slate-400 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
+              placeholder="Enter Your Email"
               required
             />
           </div>
           <div className="mb-5">
             <label
-              htmlFor="address"
+              htmlFor="phoneno"
               className="block mb-2 text-sm font-medium text-white"
             >
-              Address
+              Phone Number
             </label>
             <input
               type="text"
-              id="address"
+              id="phoneno"
               className="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
-              placeholder="Enter Your Address"
+              placeholder="Enter Your Phone Number"
               required
             />
           </div>
-          <div className="mb-5">
-            <label
-              htmlFor="gender"
-              className="block mb-2 text-sm font-medium text-white"
-            >
-              Gender
-            </label>
-            <div className="flex items-center justify-between w-1/2">
-              <label>
-                <input type="radio" id="gender" name="gender" value="male" />
-                <span className="text-white pl-2">Male</span>
+          <div className="mb-5 flex w-full justify-between">
+            <div className="w-[49%]">
+              <label
+                htmlFor="insta"
+                className="block mb-2 text-sm font-medium text-white"
+              >
+                Instagram
               </label>
-              <label>
-                <input type="radio" id="gender" name="gender" value="female" />
-                <span className="text-white pl-2">Female</span>
+              <input
+                type="text"
+                id="insta"
+                className="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
+                placeholder="Enter Your Instagram Username"
+                required
+              />
+            </div>
+            <div className="w-[49%]">
+              <label
+                htmlFor="linkedin"
+                className="block mb-2 text-sm font-medium text-white"
+              >
+                LinkedIn
               </label>
-              <label>
-                <input type="radio" id="gender" name="gender" value="other" />
-                <span className="text-white pl-2">Other</span>
-              </label>
+              <input
+                type="text"
+                id="linkedin"
+                className="bg-gray-50 border border-gray-300  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 -700 -600 -400  -blue-500 -blue-500"
+                placeholder="Enter Your LinkedIn Account"
+                required
+              />
             </div>
           </div>
         </form>

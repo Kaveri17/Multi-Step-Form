@@ -1,6 +1,8 @@
-require("dotenv").config() // .config() is used to load the environment variables from the .env file into process.env
+require('dotenv').config()
 
-module.exports = {
+// console.log(process.env.DB_DATABASE)
+
+module.exports={
   "development": {
     "username": process.env.DB_USERNAME,
     "password": process.env.DB_PASSWORD,
